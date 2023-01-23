@@ -1,0 +1,19 @@
+<h1 class="titleFaker">Tabla de productos con Faker</h1>
+
+<div class="container">
+    <table class="tableFaker">
+        <tr class="tableRowFaker">
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Foto</th>
+        </tr>
+        {{#each products}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>$ {{this.price}}</td>
+            <td><img src={{this.image}}></td>
+        </tr>
+        {{/each}}
+    </table>
+</div>
+

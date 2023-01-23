@@ -1,0 +1,42 @@
+<h1 class="appTitle">Aplicación Coderhouse</h1>
+
+<h2 class="title">Ingrese su producto</h2>
+<form id="form" class="form" method="post">
+    <label>Nombre del producto:</label>
+    <input name="product">
+    <label>Precio del producto:</label>
+    <input name="price">
+    <label>URL de la imágen del producto:</label>
+    <input name="url">
+    <button class="btn" type="submit">Guardar</button>
+    <label id="noData"></label>
+</form>
+
+<table id="table">
+    <tr class="tableRow">
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+        <th>Eliminar</th>
+    </tr>
+</table>
+
+<div id="chat">
+    <h3>Chat</h3>
+    <div class="emailWindow">
+        <p class="labelEmail">Ingresa tu email</p>
+        <input type="email" id="inputEmail" placeholder="Ingresa tu e-mail aca...">
+        <p id="noEmail"></p>
+    </div>
+    <div id="chatHistory">
+
+    </div>
+    <form id="chatBox">
+        <input id="messageBox" name="message" placeholder="Escribe tu mensaje..." type="text">
+        <button id="sendMessageBtn" type="submit">Enviar</button>
+        <p id="noInfoChat"></p>
+    </form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="index.js"></script>

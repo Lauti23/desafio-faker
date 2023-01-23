@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(160, 160, 160);
+}
+
+.appTitle {
+    width: 90%;
+    margin: 1rem auto;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.title {
+    margin-top: 2rem auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#form {
+    width: 30%;
+    margin: 1rem auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#form label {
+    margin: 1rem auto;
+}
+
+#form input {
+    width: 80%;
+}
+
+#form button {
+    margin-top: 1.5rem;
+    width: 100px;
+}
+
+#table {
+    margin: 2rem auto;
+    width: 80%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+#table th {
+    height: 2rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid white;
+}
+
+#deleteProdBtn {
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.prodImage {
+    height: 50px;
+    width: 50px;
+}
+
+#chat {
+    margin: 3rem auto;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#chat h3 {
+    margin: 1rem auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    border-bottom: 3px solid white;
+}
+
+.emailWindow {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.labelEmail {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#inputEmail {
+    width: 50%;
+    margin: 1rem auto;
+    height: 30px;
+    text-align: center;
+}
+
+#noEmail {
+    width: 40%;
+    margin: 1rem autos;
+}
+
+#chatHistory {
+    width: 80%;
+    background-color: grey;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.messageBox {
+    margin: 1rem auto;
+    font-size: 1.2rem;
+}
+
+.email {
+    color: blue;
+}
+
+.date {
+    color: red;
+}
+
+.message {
+    color: rgb(3, 71, 12);
+}
+
+#chatBox {
+    padding: 1rem;
+}
+
+#chatBox input {
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+}
+
+#chatBox button {
+    margin-left: 1rem;
+    width: 15%;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+#chatBox p {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.titleFaker {
+    margin-top: 2rem auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tableFaker {
+    margin: 2rem auto;
+    width: 80%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.tableFaker th {
+    height: 2rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid white;
+}
