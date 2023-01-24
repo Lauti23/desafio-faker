@@ -67,3 +67,12 @@ export const createTableSqlite3 = async (req, res, next) => {
         console.log("Error al crear la tabla de sqlite3", error.message);
     }
 }
+
+//MIDDLEWARE PARA VER SI EL USUARIO YA ESTA LOGEADO
+export const sessionChecker = (req, res, next) => {
+    if(req.session.user && req.cookies.user_sid) {
+        next()
+    } else {
+        res.redirect("/login")
+    }
+}

@@ -191,3 +191,48 @@ body {
     text-transform: uppercase;
     border-bottom: 3px solid white;
 }
+
+.loginTitle {
+    width: 80%;
+    margin: 2rem auto;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#loginForm {
+    width: 55%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#loginForm label {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+#loginForm input {
+    width: 50%;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#loginForm button {
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    width: 20%;
+}
